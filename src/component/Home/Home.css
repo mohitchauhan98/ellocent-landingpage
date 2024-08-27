@@ -1,0 +1,138 @@
+.home-page{
+    width: 90%;
+    margin: 200px 80px;
+    display: flex;
+}
+.home-page-first{
+    width: 50%;
+}
+.homepara-first{
+    font-size: 48px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
+}
+.homepara-first .highlight {
+    color: rgba(57, 213, 255, 1);
+}
+.homepara-second{
+    width:600px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(57, 57, 61, 1);
+}
+.home-button{
+    padding: 20px 32px;
+    background-color: rgba(57, 213, 255, 1);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.home-page-second{
+    position: relative;
+    width: 50%;
+    margin-right: 80px;
+}
+.circle{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(
+        to bottom,
+        rgba(57, 213, 255, 0.08),
+        rgba(255, 255, 255, 0.08),
+        rgba(242, 9, 219, 0.08)
+    )
+}
+.circle1 {
+    top: 50px;
+    left: 50px;
+}
+
+.circle2 {
+    top: 10px;
+    left: 200px;
+}
+.home-laptop-img{
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+.home-laptop{
+    width: 513px;
+}
+.home-mobile-img{
+    position: absolute;
+    top: 148px;
+    left: 150px;
+}
+.home-mobile{
+    width: 142px;
+}
+.home-star{
+    width: 157px;
+    box-shadow: 4px 4.35px 20.9px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    gap: 5px;
+}
+.home-star span:nth-child(1){
+    color: rgb(104, 196, 253);
+    margin-top: 5px;
+}
+.home-star span:nth-child(2){
+    font-size: 10px;
+}
+.home-user-fill{
+    width: 220px;
+    box-shadow: 0px 4px 27px 0 rgba(0, 0, 0, 0.06);
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    background-color: #fff;
+    padding: 5px 20px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+}
+.home-user-img{
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: rgba(255, 242, 228, 1);
+}
+.home-user{
+    width: 58px;
+}
+.home-user-details p:nth-child(1) {
+    margin : 0; 
+    font-size: 16px;
+    font-weight: 500;
+}
+.home-user-details p:nth-child(2){
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(9, 18, 28, 1);
+    margin: 5px 0;
+}
+.home-user-star{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.home-user-star span{
+    font-size: 12px;
+    color: rgba(9, 18, 28, 1);
+}

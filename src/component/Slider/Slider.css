@@ -1,0 +1,104 @@
+.slider-heading{
+    text-align: center;
+}
+.slider-heading h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+.slider-heading p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.slider-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.sliders{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.slider-description{
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    position: relative;
+}
+.slider-description:first-child{
+    margin-left: -450px;
+}
+.slider-description:last-child{
+    margin-right: -450px;
+}
+.slider-desc-post{
+    width: 90px;
+    height: 90px;
+    background-color: rgba(57, 213, 255, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.slider-desc-post span{
+    width: 35px;
+    height: 35px;
+}
+.slider-desc-post svg {
+    width: 100%;
+    height: 100%;
+    color: rgba(255, 255, 255, 1);
+}
+.slider-post-desc{
+    margin-top: 20px;
+    text-align: center;
+}
+.slider-post-desc span{
+    font-size: 22px;
+    font-weight: 600;
+}
+.slider-post-desc p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 500px;
+    margin: 0 auto;
+}
+.gradient-line {
+    width: 200px;
+    height: 2px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+    background-size: 20px 20px;
+    background-position: 0 0;
+    position: relative;
+    bottom: 100px;
+    left: 370px;
+}
+.gradient-lines {
+    width: 200px;
+    height: 2px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+    background-size: 20px 20px;
+    background-position: 0 0;
+    position: relative;
+    bottom: 100px;
+    left: 1300px;
+}
+.arrow-buttons{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.arrow-buttons button{
+    padding: 10px 15px;
+    display: flex;
+    background-color: rgba(57, 213, 255, 1);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}

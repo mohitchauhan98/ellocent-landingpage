@@ -1,0 +1,111 @@
+.overview{
+    background-color: rgba(250, 253, 255, 1);
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.overview-left-box{
+    display: flex;
+    width: 48%;
+}
+.overview-box{
+    width: 270px;
+    height: auto;
+    margin: 20px 70px;
+    background-color: #fff;
+    box-shadow: 0px 4px 0px 0px rgba(42, 167, 255, 0.16);
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+}
+.overview-box span{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(129, 226, 253, 1);
+    margin: 20px 20px;
+}
+.overview-user{
+    width: 220px;
+    padding: 5px 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    margin: 10px auto;
+}
+.overview-user:nth-child(3) {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    background-color: rgba(250, 253, 255, 1);
+}
+.overview-user-img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: rgba(255, 242, 228, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overview-users{
+    width: 29px;
+} 
+.overview-box-second{
+    width: 200px;
+    height: 220px;
+    background-color: #fff;
+    box-shadow: 0px 4px 0px 0px rgba(42, 167, 255, 0.16);
+    border-radius: 10px;
+    position: relative;
+    right: 60px;
+    top: 10px;
+}
+.overview-box-second p{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(129, 226, 253, 1);
+    margin: 20px 20px;
+}
+.overview-bar{
+    width: 150px;
+    margin: 20px 25px;
+}
+.overview-box-third{
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 0px 4px 0px 0px rgba(42, 167, 255, 0.16);
+    border-radius: 10px;
+    position: relative;
+    top: 250px;
+    right: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overview-box-third button{
+    padding: 10px 10px;
+    background-color: rgba(57, 213, 255, 1);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.heading{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.heading-para{
+    width:700px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(57, 57, 61, 1);
+}

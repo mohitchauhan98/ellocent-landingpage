@@ -1,0 +1,115 @@
+.clinic-details{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    position: relative;
+}
+.details-left{
+    margin: 70px 70px;
+    width: 40%;
+}
+.details-card{
+    position: absolute;
+    top: 40px;
+    left: 160px;
+    box-shadow: 0px 0px 29px 0px rgba(42, 167, 255, 0.16);
+    width: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    transform: rotate(30deg);
+}
+.check{
+    width: 32px;
+    height: 32px;
+    background-color: rgba(57, 213, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+.details-card span:nth-child(2){
+    font-size: 12px;
+    font-weight: 600;
+}
+.details-card-second{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    box-shadow: 0px 0px 29px 0px rgba(42, 167, 255, 0.16);
+    width: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    transform: rotate(30deg);
+}
+
+.details-card-second p:nth-child(1){
+    font-size: 10px;
+    color: rgba(57, 213, 255, 1);
+    margin-bottom: -5px;
+}
+.details-card-second span:nth-child(2){
+    font-size: 12px;
+    font-weight: 600;
+}
+.clinic-mobile{
+    margin-left: 190px;
+}
+.clinic-details-mobile{
+    width: 373px;
+    height: 700px;
+    transform: rotate(30deg);
+}
+.heading-details{
+    font-size: 36px;
+    font-weight: 600;
+}
+.heading-details .highlight{
+    color: rgba(57, 213, 255, 1);
+}
+.details-post{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(57, 213, 255, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    float: left;
+    margin-top: 10px;
+}
+.details-post span {
+    width: 35px;
+    height: 35px;
+}
+.details-right{
+    width: 50%;
+    margin: 0 70px;
+}
+.details-post span svg {
+    width: 100%;
+    height: 100%;
+    color: rgba(255, 255, 255, 1);
+}
+.details-post-desc span{
+    font-size: 22px;
+    font-weight: 600;
+}
+.details-post-desc p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 600px;
+}
